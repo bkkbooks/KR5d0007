@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5d0007/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0007/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶九真人五復三歸行道觀門經
+  date: '2015-08-29 00:59:08.391250'
+  source:
+    repository: kanripo
+    path: KR5d0007
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0007_000-ZTDZ.yaml, hash: 'sha256:ec49c4fcd60df5ed1e928238c569b3e2304ca5ed8b66538bd6df70c6d09b4333'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0007_000-ZTDZ.markers.yaml, hash: 'sha256:c92af59965e0a8d59f66c9e4cfa376fb1d1b38d3290b381d15698bdd27abd12f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0007_SJB_000-190930c
+    span:
+    - body
+    - 0
+    - 571
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:af39b62d43be920c96e376bce47a526623e5511c8e7c00686f11e32edf0984d4
